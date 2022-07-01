@@ -1,0 +1,22 @@
+.logimg {
+  height: 50px;
+  width: 50px;
+}
+@media (max-width: 576px) {
+  .logimg {
+    height: 20px;
+    width: 25px;
+  }
+}
+
+.Nav_list {
+  list-style-type: none;
+}
+
+@media (max-width: 576px) {
+  .Nav_list {
+    display: flex;
+    justify-content: space-evenly;
+    height: 5vh;
+  }
+}

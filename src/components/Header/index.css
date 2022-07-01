@@ -1,0 +1,10 @@
+.notice_para {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  .notice_para {
+    font-size: 10px;
+  }
+}
